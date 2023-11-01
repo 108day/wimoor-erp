@@ -3205,9 +3205,8 @@ INSERT IGNORE INTO `t_sys_user_bind` (`userid`, `bindid`) VALUES
 	(26138972975759242, 100407052731416576);
  
 -- 正在导出表  db_wimoor.t_user 的数据：~14 rows (大约)
-INSERT IGNORE INTO `t_user` (`id`, `account`, `password`, `salt`, `leader_id`, `createDate`, `losingEffect`, `logicDelete`, `disable`, `isActive`, `hasEmail`, `member`, `passwordkey`, `lastlogintime`, `lastloginip`, `lastloginsession`, `ftype`, `oldid`, `deptid`, `opttime`) VALUES
-	(26138972975759242, 'admin@wimoor.com', '96c69ccfd87055e615e5f68e05d259c6', 'e2d7e572-7994-486c-9942-6ac718efab22', 26138972975759242, '2016-10-31 16:00:00', '2098-12-31', b'0', b'0', b'1', b'1', 0, NULL, '2022-10-27 09:36:56', '0:0:0:0:0:0:0:1', 'fbe5f44c-b49b-47aa-bd48-047290008ec2', 'email', NULL, NULL, NULL);
- 
+INSERT IGNORE INTO `t_user` (`id`, `account`, `password`, `salt`, `leader_id`, `losingEffect`, `logicDelete`, `disable`, `isActive`, `hasEmail`, `member`, `passwordkey`, `lastlogintime`, `lastloginip`, `lastloginsession`, `opttime`, `createDate`, `ftype`, `oldid`, `deptid`) VALUES (26138972975759242, 'admin@wimoor.com', '348d576749fb860a238cac06f49d828d', 'a339598eb2ec5f757c47bb03dffb25b8', 26138972975759242, '2098-12-31', b'0', b'0', b'1', b'1', 0, NULL, '2022-10-27 09:36:56', '0:0:0:0:0:0:0:1', 'fbe5f44c-b49b-47aa-bd48-047290008ec2', NULL, '2016-11-01 00:00:00', 'email', NULL, NULL);
+
 -- 正在导出表  db_wimoor.t_userinfo 的数据：~15 rows (大约)
 INSERT IGNORE INTO `t_userinfo` (`id`, `name`, `sex`, `picture`, `tel`, `company`, `email`, `remark`) VALUES
 	(26138972975759242, '系统管理员', NULL, NULL, NULL, NULL, NULL, NULL);
